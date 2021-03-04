@@ -44,13 +44,13 @@ grails.project.dependency.resolution = {
     }
 
     dependencies {
-        test("org.seleniumhq.selenium:selenium-chrome-driver:$seleniumVersion") {}
+        test("org.seleniumhq.selenium:selenium-chrome-driver:$seleniumVersion")
         test("org.seleniumhq.selenium:selenium-support:$seleniumVersion")
-        test("org.gebish:geb-spock:2.3.1")
+        test("org.gebish:geb-spock:2.2")
     }
 
     plugins {
-        build ":tomcat:8.0.33"
+        build ":tomcat:8.0.50"
         test ":geb:1.0"
         test ":remote-control:2.0"
     }

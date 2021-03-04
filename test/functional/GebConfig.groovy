@@ -20,7 +20,7 @@ private void downloadDriver(File file, String path) {
 }
 
 private static File downloadChromeDriver() {
-    final VERSION = '81.0.4044.69'
+    final VERSION = '89.0.4389.23'
     final OS = System.properties['os.name'].toLowerCase()
     final EXTENSION = OS.contains('windows') ? '.exe' : ''
     File chromeDriver = new File("test/drivers/chrome/chromedriver${VERSION.replaceAll('\\.', '')}${EXTENSION}")
