@@ -18,7 +18,7 @@ grails test-app functional: specs.general.DashboardSpec -echoOut -echoErr
 ### Exercise
 The existing test does not pass. 
 As part of this exercise, make the necessary changes to get it to pass.
-Also add other relevant tests the test the underlying functionality.
+Also add other relevant tests to test the underlying functionality.
 
 The valid username/password that will authenticate properly is a@a.com/Password1
 
